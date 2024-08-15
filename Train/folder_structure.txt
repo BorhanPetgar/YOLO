@@ -1,0 +1,29 @@
+YOLO_dataset/
+├── images/
+│   ├── train/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   ├── val/
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   └── test/ (optional)
+│       ├── image1.jpg
+│       ├── image2.jpg
+│       └── ...
+├── labels/
+│   ├── train/
+│   │   ├── image1.txt
+│   │   ├── image2.txt
+│   │   └── ...
+│   ├── val/
+│   │   ├── image1.txt
+│   │   ├── image2.txt
+│   │   └── ...
+│   └── test/ (optional)
+│       ├── image1.txt
+│       ├── image2.txt
+│       └── ...
+├── data.yaml
+└── classes.names
