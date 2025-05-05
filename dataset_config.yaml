@@ -1,0 +1,9 @@
+output_dir: YOLO_dataset
+image_dir: images
+label_dir: labels
+classes:
+  - bg
+train_ratio: 0.8
+val_ratio: 0.1
+test_ratio: 0.1
+random_seed: 42
